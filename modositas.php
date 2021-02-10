@@ -1,4 +1,4 @@
-<?php include('server.php'); ?>
+
  
 <!doctype html>
 <html lang="hun">
@@ -25,16 +25,10 @@
 </div>
 
 
-
-
-<?php   foreach ($ugrolista as $ugro): ?>
-<div class="doboz">
-
-<?php endforeach; ?>
-
-
-
-
+    <?php  include('server.php');
+        $listazas = new adatbazis();
+        $listazas->modosito_lista(); 
+    ?>
 
 
 
