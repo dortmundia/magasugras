@@ -24,12 +24,10 @@
     </div>
 
     
-    <div class="row">
     <?php  include('server.php');
         $listazas = new adatbazis();
         $listazas->ugro_lista(); 
     ?>
-    </div>
 
 
 
