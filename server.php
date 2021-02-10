@@ -117,13 +117,13 @@ class adatbazis{
                 echo "<div  class='column'  >";
                 echo   "<h3>" . $this->row["mu_magassag"] . " </h3><br><p>" . $this->row["mu_atleta"] . "(" . $this->row["mu_nemzetiseg"] . ")<br><i>" . $this->row["mu_datum"] . "</i><br>" . $this->row["mu_helyszin"] . " </p>";
                 echo "<form method='POST' style='display: inline;'>
-                    <input type='hidden' name='input_id' value='" . $this->row["id"]. "'>
+                    <input type='hidden' name='input_id' value='" . $this->row["mu_id"]. "'>
                     <input type='hidden' name='action' value='cmd_mu_high_plus'>
                     <input type='submit' value='+'>
                     </form>";				
                 echo $this->row["mu_magassag"];
                 echo "<form method='POST' style='display: inline;'>
-                    <input type='hidden' name='input_id' value='" . $this->row["id"]. "'>
+                    <input type='hidden' name='input_id' value='" . $this->row["mu_id"]. "'>
                     <input type='hidden' name='action' value='cmd_mu_high_minus'>
                     <input type='submit' value='-'>
                     </form>";				
