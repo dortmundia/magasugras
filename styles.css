@@ -1,0 +1,40 @@
+h1{
+    text-align: center;
+    font-size: 400%;
+    color: #88FFAA;    
+    text-shadow: 2px 2px #48bF6A;
+    font-style: italic;
+}
+
+a{
+    color:  #48bF6A;
+
+}
+
+.doboz{
+    background-color: #efffef;
+    border: 1px outset #deeede;
+    border-radius: 5px;
+}
+
+footer{ background-color: efffef;    }
+
+
+/*"<h3>" . $this->row["mu_magassag"] . " </h3><br><p>" . $this->row["mu_atleta"] . "(" . $this->row["mu_nemzetiseg"] . " )<br><i>" . $this->row["mu_datum"] . "</i><br>" . $this->row["mu_helyszin"] . " </p>"*/
+
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    background-color: #efffef;
+    border: 1px outset #deeede;
+    border-radius: 5px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
